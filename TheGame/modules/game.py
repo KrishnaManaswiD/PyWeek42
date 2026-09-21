@@ -32,12 +32,12 @@ def run():
     assets = GameAssets()
 
     # background music score
-    # background_music = assets.sound_assets["snd_default_bkg"]
+    background_music = assets.sound_assets["snd_default_bkg"]
 
-    # p = pyglet.media.Player()
-    # p.queue(background_music)
-    # p.loop = True
-    # p.play()
+    p = pyglet.media.Player()
+    p.queue(background_music)
+    p.loop = True
+    p.play()
 
     # list of all interactive objects in the simulation
     game_objects = []

@@ -62,5 +62,5 @@ class GameAssets(object):
         
         
         ## load audio assets
-        # self.create_sound_asset("snd_default_bkg", "sounds/Dafault_bgm_428858__supervanz__duskwalkin_loop.wav", True)
+        self.create_sound_asset("snd_default_bkg", "sounds/taureon-background-loop-straight-04-2699.mp3", True)
         
