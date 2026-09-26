@@ -15,6 +15,9 @@ class GameState(object):
         self.mood = 30
         self.skill = 10
 
+        # time
+        self.time_remaining = 30*24 # 30 days in hours
+
         self.level = 0
         self.level_change = False
 

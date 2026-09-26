@@ -1,4 +1,5 @@
 # this implements the deck for the game which is a collection of cards
+# we may not need a deck - just spawn cards based on the game state. 
 
 import random
 
